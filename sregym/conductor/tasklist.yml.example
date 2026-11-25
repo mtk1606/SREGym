@@ -267,6 +267,9 @@ all:
     operator_non_existent_storage:
     - diagnosis
     - mitigation
+    tidb_query_plan_regression:
+    - diagnosis
+    - mitigation
     operator_invalid_affinity_toleration:
     - diagnosis
     - mitigation
